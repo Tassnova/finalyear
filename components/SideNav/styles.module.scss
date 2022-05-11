@@ -1,0 +1,46 @@
+@import '../../styles/variables.scss';
+
+// Globals
+.sideNav{
+    height: 100vh;
+    width: 20vw;
+}
+.title{
+    margin: 20px;
+}
+.menuItem{
+    padding: 20px 30px;
+    margin: 0 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        background-color: #B39BE8;
+        a{
+            color: white;
+        }
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+}
+.active{
+    background-color: #B39BE8;
+}
+
+// Mobile
+@media only screen and (max-width: $smallMobile) {}
+
+// Large Mobile
+@media only screen and (max-width: $largeMobile) {}
+
+// Tablet
+@media only screen and (max-width: $tablet) {}
+
+// Desktop
+@media only screen and (max-width: $desktop) {}
+
+// Large desktop
+@media only screen and (max-width: $hdDesktop) {}

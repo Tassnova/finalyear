@@ -1,0 +1,27 @@
+// Colours
+$lilac: #baa3ed;
+$lightGray: #c7d3d4ff;
+
+// Breakpoints
+$smallMobile: 320;
+$largeMobile: 500;
+$tablet: 740;
+$desktop: 1020;
+$hdDesktop: 1460;
+
+// Media queries for each breakpoint
+
+// Mobile
+@media only screen and (max-width: $smallMobile) {}
+
+// Large Mobile
+@media only screen and (max-width: $largeMobile) {}
+
+// Tablet
+@media only screen and (max-width: $tablet) {}
+
+// Desktop
+@media only screen and (max-width: $desktop) {}
+
+// Large desktop
+@media only screen and (max-width: $hdDesktop) {}

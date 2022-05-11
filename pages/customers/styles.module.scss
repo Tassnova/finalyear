@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+// Globals
+.customerList{
+    border-collapse: collapse;
+    width: 100vw - 21.25vw;
+    th{
+        font-weight: bold;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+    }
+  
+}
+
+// Mobile
+@media only screen and (max-width: $smallMobile) {}
+
+// Large Mobile
+@media only screen and (max-width: $largeMobile) {}
+
+// Tablet
+@media only screen and (max-width: $tablet) {}
+
+// Desktop
+@media only screen and (max-width: $desktop) {}
+
+// Large desktop
+@media only screen and (max-width: $hdDesktop) {}

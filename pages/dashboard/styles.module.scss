@@ -1,0 +1,68 @@
+@import '../../styles/variables.scss';
+
+// Globals
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 78vw;
+}
+
+.statistic {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 65%;
+    .stats {
+        gap: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .chart {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid $lightGray;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 33%;
+    .activity {
+        height: 400px;
+        width: 100%; 
+        border-radius: 10px;
+        border: 2px solid $lightGray;
+    }
+    .analytics {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid $lightGray;
+        button{
+            background-color: #B39BE8;
+        }
+        .active{
+            background-color: #d9c7ff;
+        }
+    }
+}
+
+// Mobile
+@media only screen and (max-width: $smallMobile) {}
+
+// Large Mobile
+@media only screen and (max-width: $largeMobile) {}
+
+// Tablet
+@media only screen and (max-width: $tablet) {}
+
+// Desktop
+@media only screen and (max-width: $desktop) {}
+
+// Large desktop
+@media only screen and (max-width: $hdDesktop) {}

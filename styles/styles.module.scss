@@ -1,0 +1,47 @@
+@import './variables.scss';
+
+.container {
+    display: flex;
+    width: 100vw;
+}
+
+.leftSide,
+.rightSide {
+    width: 100%;
+}
+
+.leftSide {
+    height: 100vh;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+
+    .formInput,
+    button {
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .formInput,
+    label,
+    button {
+        width: 100%;
+    }
+
+    input:focus {
+        outline: none !important;
+        border: 2px solid $lilac;
+    }
+
+    button {
+        width: 100%;
+        background-color: #B39BE8;
+    }
+}
+
+.inputLabel {
+    display: block;
+}
